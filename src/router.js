@@ -1,9 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home/Index.vue";
-import Users from "./views/Users/Index.vue";
-import UsersShow from "./views/Users/Show.vue";
-import NotFound from "./views/Msc/NotFound";
+import Home from "@/views/home/Index.vue";
+import Users from "@/views/users/Index.vue";
+import UsersShow from "@/views/users/Show.vue";
+import NotFound from "@/components/NotFound.vue";
 
 Vue.use(Router);
 

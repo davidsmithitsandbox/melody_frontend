@@ -1,17 +1,15 @@
 <template>
   <div>
-    <h1 v-text="welcome"></h1>
+    <WelcomeUser />
   </div>
 </template>
 
 <script>
+import WelcomeUser from "@/components/WelcomeUser.vue";
 export default {
-  data: function() {
-    return {
-      welcome: "Welcome, " + this.username
-    };
-  },
-  props: ["username"]
+  components: {
+    WelcomeUser
+  }
 };
 </script>
 
